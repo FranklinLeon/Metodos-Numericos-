@@ -7,7 +7,7 @@
 
 % Problema 1:
 %   
-%   Descripción del problema 1
+%   Descripciï¿½n del problema 1
 % 
 
 f = @(x) x.^2 - 7*x;
@@ -23,7 +23,7 @@ datos=""
 
 try 
   [y, datos, iter] = biseccion(f,a,b);
-  fprintf('El valor de corte es y=%d, el número de iteraciones es %d\n',y,iter);
+  fprintf('El valor de corte es y=%d, el nï¿½mero de iteraciones es %d\n',y,iter);
   
   h=figure(1);
   x = a-delta:0.1:b+delta;
@@ -47,7 +47,7 @@ try
   set(gca, "box", "on")
   
   [n,m] = size(datos)
-  fprintf('Interación\ta\tb\tc\tf(a)\tf(b)\tf(c)\terror\n');
+  fprintf('Interaciï¿½n\ta\tb\tc\tf(a)\tf(b)\tf(c)\terror\n');
   for i=1:n
     fprintf('%d\t',i);
     for j=1:m
