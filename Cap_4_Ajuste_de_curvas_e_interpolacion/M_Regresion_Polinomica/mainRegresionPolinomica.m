@@ -8,15 +8,18 @@ clc; clear;
 
 %el polinomio debe de ser de grado polinomialmayor a 2 
 fprintf('Ejecicio 1\n')
-D=[2.5;7.1;5;8.5;7;8.1];
-w=[2.3;6.5;4.5;6.9;6.3;7.3];
+%D=[2.5;7.1;5;8.5;7;8.1];
+%w=[2.3;6.5;4.5;6.9;6.3;7.3];
 m=2;
+
+D=[1;2;3;4;5;6;7;8;9;10]
+w=[10;13;19;20;21.5;29;29.2;31;32;32]
 
 try
   [polinomio,erroraprox]= Reg_Pol(m,D,w);
   %Graficamo2 los puntos iniciales y la regrecion polinomial
    h=figure(1);
-  c=1:.1:9;
+  c=0:.1:11;
   f_c=polyval(polinomio,c);
   plot(D,w,'ro',c,f_c)
   hold on;

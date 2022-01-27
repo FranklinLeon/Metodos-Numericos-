@@ -42,7 +42,7 @@ hold off;
 
 fprintf('**************************************************************************\n')
 
-fprintf('\nEjecicio 2\n');
+fprintf('\nEjecicio 1\n');
 %los valores de un potenciometro de 10k varian segun el tiempo la tabla correspondiente es:  
 %tiempo = 0s 2s 3s 6s 9s 10s 12s 13s 15s 18s 20s 
 %potenciometro = 0.5k 1.7k 2k 3k 3.5k 5.2k 5.9k 7.1k 8.9k 9.5k 9.9k
